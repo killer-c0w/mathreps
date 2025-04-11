@@ -61,7 +61,7 @@ export function AuthProvider({ children }) {
                 console.error('Error logging in:', error);
                 return {success : false, error: error.message };
             }
-            console.log('login successful:', data);
+            console.log('logged in')
             return {success : true, data };
 
         } catch(error) {
